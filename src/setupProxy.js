@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'https://socket.nutranation.ml',
+      target: 'https://server.nutranation.ml',
       changeOrigin: true,
     })
   );
