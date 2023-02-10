@@ -7,7 +7,7 @@ const header= localStorage.getItem("accessToken")?{
   }
 
 const instance=axios.create({
-    baseURL:'http://localhost:8800/api/',
+    baseURL:'https://admin.nutranation.ml/api/',
     headers:header,
     withCredentials:true
 })
